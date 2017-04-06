@@ -37,17 +37,17 @@ void main()
 			for(j = 0; j < 17;j++)
 			{
 				if(i == 0 )
-					printf("¨x");
+					printf("â–");
 				else if(i == 16)
-					printf("¨‰");
+					printf("â–”");
 				else if(j == 0)
-					printf("¨Š");
+					printf("â–•");
 				else if(j == 16)
-					printf("¨‡MeloÖÐÎÄ¶¨ÖÆ°æ");
+					printf("â–Meloä¸­æ–‡å®šåˆ¶ç‰ˆ");
 				else if(i == p.a && j == p.b)
-					printf("¡ö");
+					printf("â– ");
 				else if(i == f.a && j == f.b)
-					printf("¡ï");
+					printf("â˜…");
 				else
  				{
 					t = 0;
@@ -56,7 +56,7 @@ void main()
 					{
  						if(i == dd->a && j == dd->b)
 						{
-							printf("¡õ");
+							printf("â–¡");
 							t = 1;
 							break;
 						}
@@ -75,7 +75,7 @@ printf("\n");
 		{
 			if(p.a == dd->a  && p.b == dd->b)
 			{
-				printf("ÄãÊäÁË!\n");
+				printf("ä½ è¾“äº†!\n");
 				exit(0);
 			}
 			dd = dd->u;
